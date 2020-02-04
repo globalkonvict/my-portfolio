@@ -1,26 +1,36 @@
 .hero-body {
     background-image: linear-gradient(to right, #000000c5, #434343b2), 
-                      url('assets/img/hero_background.jpg');
+                      url('assets/img/hero_background2.jpg');
     background-repeat:no-repeat;
     background-position: center center;
     clip-path: polygon(59% 0, 100% 0, 100% 35%, 100% 70%, 100% 70%, 29% 89%, 0 69%, 0 69%, 0% 35%, 0 0);
 
 }
 
-.clip-shadow {filter: drop-shadow(0px 15px 5px rgba(10, 10, 10, 0.247))}
+.clip-shadow {filter: drop-shadow(0px 0px 20px rgba(10, 10, 10, 0.247))}
 
 .me {
-    background-image: linear-gradient(to right, #000000d2, #434343bd), 
+    background-image: linear-gradient(to right, #000000da, #292727d0), 
                         url('assets/img/code.png');
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
     margin: 4rem auto;
-    clip-path: polygon(0 10%, 100% 4%, 100% 100%, 0 94%);
+    clip-path: polygon(0 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 94% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 6% 85%);
     
 }
 
 .about-p {
     color: #FFFFFF;
-    text-shadow: 0 0 10px rgba(82, 241, 50, 0.76);
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(176, 173, 184));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+#about-me {
+    padding: 10rem
+}
+
+.section-heading {
+    border-bottom: 5px solid #f14668 ;
 }

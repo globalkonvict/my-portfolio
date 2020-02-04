@@ -39,7 +39,7 @@ const Navbar = ( ) => {
 						<div className='navbar-end has-margin-right-4'>
 							<div className='navbar-item'>
 								<div className='buttons'>
-									<a href='https://github.com/SarthakDwivedi' className='button is-black ' target='_blank'>
+									<a href='https://github.com/globalkonvict' className='button is-black ' target='_blank'>
 										<span className='icon'>
 											<i className='fab fa-github'></i>
 										</span>
